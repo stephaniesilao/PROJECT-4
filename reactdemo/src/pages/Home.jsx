@@ -503,16 +503,7 @@ function Home (){
      
             </section>
         )
-       } else {
-
-        return (
-            <section>
-                <h1>Hello Guest!</h1>
-            </section>
-        )
-
-       }
-
+       } 
   
 }
 
