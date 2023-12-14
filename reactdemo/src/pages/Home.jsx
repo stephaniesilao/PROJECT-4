@@ -237,15 +237,12 @@ function Home (){
 
                
 
-                <div className="center"> 
+                <div className=" container-fluid center "> 
          
                                   <Collapse in={isOpen} animateOpacity>
-                                    <Box className=" mb-3 " 
-                                      
+                                    <Box className=" container-fluid mb-3 "                       
                                       backgroundColor='#fff'
-                                      mt={5}
-                                      boxSize="md"
-                                      h="400px"
+                                      mt={5}     
                                       w='100%'
                                       color='white'
                                       bg='#fff'
@@ -257,7 +254,7 @@ function Home (){
                                           
                                     
                                         
-                                <div className="row">
+                                <div className="row ">
                                         <div className="col-md-4 d-flex justify-content-center">
                                         <FormControl isRequired>
                                          <FormLabel className="text-dark" htmlFor="firstname">First Name:</FormLabel>
@@ -273,7 +270,7 @@ function Home (){
                                          </FormControl>
                                          </div>    
 
-                                         <div className="col-md-4">
+                                         <div className="col-md-4 ">
                                          <FormControl isRequired>
                                              <FormLabel className="text-dark" htmlFor="lastname">Last Name:</FormLabel>
                                              <input id="lastname" 
@@ -287,7 +284,7 @@ function Home (){
                                              </FormControl>
                                          </div> 
 
-                                         <div className="col-md-4">
+                                         <div className="col-md-4 ">
                                          <FormControl isRequired>
                                              <FormLabel className="text-dark" htmlFor="middlename">Middle Name:</FormLabel>
                                              <input id="middlename" 
@@ -301,7 +298,7 @@ function Home (){
                                              </FormControl>
                                          </div>   
 
-                                         <div className="col-md-4">
+                                         <div className="col-md-4 ">
                                          <FormControl isRequired>
                                              <FormLabel className="text-dark" htmlFor="email">Email</FormLabel>
                                              <input id="email" placeholder="@example.com"
@@ -315,7 +312,7 @@ function Home (){
                                              </FormControl>
                                          </div>   
 
-                                         <div className="col-md-4">
+                                         <div className="col-md-4 ">
                                          <FormControl isRequired>
                                              <FormLabel className="text-dark" htmlFor="contactnumber">Contact number</FormLabel>
                                              <input id="contactnumber" 
@@ -329,7 +326,7 @@ function Home (){
                                              </FormControl>
                                          </div>   
 
-                                         <div className="col-md-4">
+                                         <div className="col-md-4 ">
                                          <FormControl isRequired>
                                              <FormLabel className="text-dark" htmlFor="address">Adress</FormLabel>
                                              <input id="address" 
@@ -343,7 +340,7 @@ function Home (){
                                              </FormControl>
                                          </div> 
 
-                                         <div className="col-md-4 form-group">
+                                         <div className="col-md-4 form-group ">
                                          <FormControl>
                                              <FormLabel className="text-dark" htmlFor="sex">Sex</FormLabel>
                                              <select id="sex" 
@@ -363,7 +360,7 @@ function Home (){
                                              </FormControl>
                                          </div> 
 
-                                         <div className="col-md-4">
+                                         <div className="col-md-4 ">
                                          <FormControl>
                                              <FormLabel className="text-dark" htmlFor="birthdate">Birthdate</FormLabel>
                                              <input id="birthdate" 
@@ -377,7 +374,7 @@ function Home (){
                                              </FormControl>
                                          </div> 
 
-                                         <div className="col-md-4">
+                                         <div className="col-md-4 ">
                                          <FormControl>
                                              <FormLabel className="text-dark" htmlFor="position">Position</FormLabel>
                                              <input id="position" 
@@ -391,7 +388,7 @@ function Home (){
                                              </FormControl>
                                          </div>
 
-                                         <div className="col-md-4">
+                                         <div className="col-md-4 ">
                                          <FormControl>
                                              <FormLabel className="text-dark" htmlFor="salary">Salary</FormLabel>
                                              <input id="salary" 
@@ -405,7 +402,7 @@ function Home (){
                                              </FormControl>
                                          </div> 
 
-                                         <div className="col-md-8 form-group">
+                                         <div className="col-md-8 form-group ">
                                          <FormControl>
                                              <FormLabel className="text-dark" htmlFor="degree">Degree</FormLabel>
                                              <select id="degree" 

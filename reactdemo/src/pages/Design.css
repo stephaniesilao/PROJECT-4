@@ -2,6 +2,8 @@
     display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: row wrap;
+
   
 }
 
@@ -12,3 +14,11 @@
     object-fit: cover;
 }
 
+
+
+
+/* section {
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: row
+} */

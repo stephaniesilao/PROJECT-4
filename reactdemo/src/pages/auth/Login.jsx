@@ -42,7 +42,7 @@ function Login () {
             Swal.fire({
                 icon: "error",
                 title: "Oops...",
-                text: "Missing credentials!",
+                text: "Missing crredentials!",
                 footer: '<a href="#">Please fill in the missing fields</a>'
               });
              
@@ -57,7 +57,7 @@ function Login () {
         
         <h1 className='text-center fw-bold'>Welcome to Employees Dashboard</h1>
         <h4 className='text-center' >Please login to access.</h4>
-        <div className="container border border-dark p-3 rounded w-50 mt-5">
+        <div className="container  border border-dark p-3 rounded w-50 mt-5">
             <div className="fw-bold h3">Login</div>
             <p>Enter your email and password to login.</p>
             <label htmlFor="email">Email</label>
@@ -68,7 +68,7 @@ function Login () {
             
                 >Login</button> 
             <hr/>
-            <Link className='text-dark' to="/register" > Don't have an account? Register here. </Link>
+            <Link className='text-dark' to="/register" > <u>Don't have an account? Register here. </u></Link>
         </div>
 
        </div>

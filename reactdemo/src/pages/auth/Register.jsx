@@ -67,7 +67,7 @@ function Register () {
 
             <button className="btn btn-dark mt-3" onClick={handleRegistration}>Register</button>
             <hr/>
-            <Link className='text-dark' to="/login" > Already have an account? Login here. </Link>
+            <Link className='text-dark' to="/login" ><u>Already have an account? Login here. </u> </Link>
         </div>
     )
 }
